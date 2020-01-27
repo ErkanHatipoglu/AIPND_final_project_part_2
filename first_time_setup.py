@@ -4,6 +4,7 @@
 
 # https://stackoverflow.com/questions/19602931/basic-http-file-downloading-and-saving-to-disk-in-python
 # thanks to @ https://stackoverflow.com/users/2702249/om-prakash-sao
+print('')
 print('downloading flowers data please wait...')
 import urllib.request 
 urllib.request.urlretrieve("https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz", "flower_data.tar.gz")
@@ -25,4 +26,4 @@ print('finished!')
 print('removing tar file...')
 import os
 os.remove("flower_data.tar.gz")
-print("File Removed!")
+print("file removed!")
