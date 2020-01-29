@@ -86,9 +86,16 @@ def predict(image_path, model, topk=5):
 
 ## use argparse for command line inputs
 
+
 # Initialize
 parser = argparse.ArgumentParser(description="This program predicts flowers' names from their images",
-								 usage='needs a saved checkpoint',
+								 usage='''
+        needs a saved checkpoint
+        python predict.py ( use default image 'flowers/test/1/image_06743.jpg' and root directory for checkpoint)
+        python predict.py /path/to/image checkpoint (predict the image in /path/to/image using checkpoint)
+        python predict.py --top_k 3 (return top K most likely classes)
+        python predict.py --category_names cat_to_name.json (use a mapping of categories to real names)
+        python predict.py --gpu (use GPU for inference)''',
 								 prog='predict')
 
 ## Get path of image
