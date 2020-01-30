@@ -12,8 +12,13 @@ import os
 ## use argparse for command line inputs
 
 # Initialize
-parser = argparse.ArgumentParser(description='This is a model training program',
-								 usage='Uses models: VGG-13, VGG-16 or VGG-19',
+parser = argparse.ArgumentParser(description='This is a model training program for a dateset of flowers using pytorch',
+								 usage='''
+        python train.py (data set shall be initially extracted to the 'flowers' directory)
+        python train.py data_dir (data set shall be initially extracted to the 'data_dir' directory)
+        python train.py data_dir --save_dir save_directory (set directory to save checkpoints)
+        python train.py data_dir --arch "vgg13" (choose architecture from vgg13, vgg16 and vgg19)
+        python train.py data_dir --learning_rate 0.01 --hidden_units [1024, 512, 256] --epochs 20 (set hyperparameters)''',
 								 prog='train')
 
 
