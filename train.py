@@ -1,3 +1,5 @@
+# thanks to Udacity AI Programming with Python Nanodegree Program
+
 import argparse
 import torch
 from torch import nn
