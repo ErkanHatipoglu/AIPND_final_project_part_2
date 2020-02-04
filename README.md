@@ -18,6 +18,8 @@ first_time_setup.py
 
 python first_time_setup.py
 
+python first_time_setup.py --save_dir save (data set will be downloaded and extracted to the 'save' directory)
+
 train.py
 --------
 
