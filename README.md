@@ -111,6 +111,6 @@ Ensure to replace `/path/to/flower_data`, `/path/to/image.jpg`, and `checkpoint.
 
 This project was made possible through the knowledge and skills acquired from the [AI Programming with Python Nanodegree program](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089) offered by Udacity. The comprehensive curriculum and hands-on projects provided by this program were instrumental in developing the foundation required for this and future machine learning endeavors.
 
-Special thanks to the community and resources available online, including forums, blogs, and tutorials, which have been invaluable in troubleshooting and refining the project. Among these resources, OpenAI's ChatGPT has been particularly helpful, offering guidance and support for thid Readme.
+Special thanks to the community and resources available online, including forums, blogs, and tutorials, which have been invaluable in troubleshooting and refining the project. Among these resources, OpenAI's ChatGPT has been particularly helpful, offering guidance and support for this Readme.
 
 This project is a testament to the collaborative nature of learning and the power of combining structured academic programs with self-directed exploration and research.
