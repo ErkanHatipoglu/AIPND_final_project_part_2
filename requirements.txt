@@ -1,5 +1,5 @@
 python==3.7.3
-torch==1.13.1
+torch==2.2.0
 numpy==1.22.0
 pandas==0.24.2
 Pillow==10.3.0
